@@ -68,9 +68,7 @@ include("inc/connect.php");
                 </label>
                 <label class="form-label-wrapper">
                     <p class="form-label">UserName</p>
-                    <input class="form-input" type="text" name="username" placeholder="Enter your username" value="<?php if (isset($_POST['username'])) {
-                                                                                                                        echo $_POST['username'];
-                                                                                                                    } ?>">
+                    <input class="form-input" type="text" name="username" placeholder="Enter your username" value="<?php if (isset($_POST['username'])) {                                                                                    } ?>">
                 </label>
                 <label class="form-label-wrapper">
                     <p class="form-label">Email</p>
